@@ -1,0 +1,14 @@
+[package]
+name = "renderer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.48"
+getrandom = { version = "0.2.3", features = ["js"] }
+image = "0.23.14"
+nalgebra-glm = "0.15.0"
+pollster = "0.2.4"
+raw-window-handle = "0.3.3"
+wgpu = { version = "0.11.0", features = ["webgl"] }
+winit = { version = "0.25.0", features = ["web-sys"] }
